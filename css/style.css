@@ -413,6 +413,13 @@ label {
 	color: #cc3300;
 	text-align: left;
 }
+.social{z-index:0 !important;}
+.links{max-width:500px;margin-left:px;margin-top:12px;height:100%;}
+.links .social{margin-left:12px;margin-bottom:4px;}
+.links .social i{font-size:15px;vertical-align:middle;padding-bottom:15px;}
+.links .social{margin:4px;}
+.links .social{margin:1px;}
+.links{max-width:325px;}
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
@@ -422,30 +429,13 @@ label {
 .modal-header-custom {background-color: black;}
 .modal-body-custom {
 	background-color: #800080;
+	color: white;
 }
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
 }
 /* Social Section */
-#social-section {
-	padding: 30px 0;
-	background-color: #e40c0ce3;
-	text-align: center;
-}
-#social-section .social ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-#social-section .social i.fa {
-	font-size: 24px;
-	padding: 4px 5px;
-	color: #fff;
-	transition: all 0.5s;
-}
-#social-section .social i.fa:hover {
-	color: #666;
-}
 /* Footer */
 #footer {
 	background-color: #222222;
@@ -488,6 +478,7 @@ label {
 	padding: 22% 10%;
 }
 }
+
 #v-card-holder{overflow:visible;width:100%;height:auto;margin-top:-194px;}
 #v-card-holder #v-card{position:relative;width:100%;height:400px;overflow:hidden;-webkit-transition:height 1s, color 1s, margin 1s;transition:height 1s, color 1s, margin 1s;z-index:1;background:#8B0000;margin:-33px 3px 0 0;}
 #v-card-holder #v-card .info-headings{max-width:514px;}
@@ -527,4 +518,123 @@ label {
 #v-card-holder #v-card .info-headings{max-width:100%;text-align:center;margin-top:38px;}
 #v-card-holder #v-card .info-headings h6{margin-bottom:20px;}
 #v-card-holder #v-card .card-content{padding:10px;}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
 }
